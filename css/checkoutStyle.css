@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #333;
+    /* background: linear-gradient(to right, #ff416a, #000) no-repeat 0 0 / cover; */
+    color: #fff;
+}
+
+/* Navigation bar */
+
+header{
+    background: #fff;
+    color: #000;
+    opacity: 1;
+    width: 100%;
+    min-height: 100px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo{
+    /* color: rgb(247, 245, 245); */
+    font-size: 20px;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    padding: 1.5rem ;
+}
+
+.links{
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+}
+
+.links li{
+    list-style: none;
+}
+
+.links a{
+    /* color: #fff; */
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid none;
+    padding: 1rem 0.5rem;
+    transition: all 0.6s ease-in;
+    border-radius: 15px;
+}
+
+.links a:hover{
+    transform: scale(0);
+    background-color: #ff416c;
+    color: #fff;
+}
+
+/*section*/
+
+.checkout .container{
+    background: #fff;
+    border: 1px solid black;
+    max-width: 100%;
+    height: 580px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.orders{
+    background: #fff;
+    color:#000;
+    border-radius: 10px;
+    border:1px solid black;
+    padding: 10px 5rem;
+    margin-top: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); 
+    position: relative;
+    overflow: hidden; 
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px; 
+    
+} 
+.orders h1{
+    color: #000;
+    text-transform: uppercase;
+}
+
+table{
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+th, tr,td{
+    border: 1px solid black;
+    padding: 0.4rem 1rem;
+    
+}
+.btn{
+    background: rgb(16, 138, 219);
+    padding: 0.2rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.total{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0.5rem;
+    border: 1px solid #000;
+    width: 80%;
+    background-color: rgb(169, 226, 217);
+    display: flex;
+    padding: 0.3rem 0.8rem;
+    border-radius: 5px;
+}
+
+.total h2{
+    left: 0;
+    text-align: left;
+    flex: 6;
+}
+.total .primary-btn{
+    flex: 1;
+    background-color: rgb(130, 40, 214);
+    color: #fff;
+    text-decoration: none;
+    padding: 0.3rem 0.5rem;
+    border-radius: 5px;
+    transition: all 0.4s ease-in;
+}
+
+footer{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+

@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    /* background-color: #fff; */
+    background: linear-gradient(to right, #fff, rgb(62, 128, 106), #fff,rgb(62, 128, 106)) no-repeat 0 0 / cover;
+    color: #fff;
+}
+
+/* Navigation bar */
+
+header{
+    /* background: #fff; */
+    background: linear-gradient(to right, #fff,rgb(62, 128, 106), #fff) no-repeat 0 0 / cover;
+    color: #000;
+    opacity: 1;
+    width: 100%;
+    height: 50px;
+}
+
+nav{
+    display: flex;
+    float: right;
+    text-align: center;
+}
+
+.links{
+    display: flex;
+    width: 25%;
+    margin-top: 0.9rem;
+    margin-right: 2rem;
+    text-align: center;
+}
+
+.links li{
+    list-style: none;
+}
+
+.links a{
+    /* color: #fff; */
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid none;
+    padding: 0.5rem 1.5rem;
+    transition: all 0.6s ease-in;
+    border-radius: 15px;
+    color: #000;
+    font-weight: 700;
+    letter-spacing: 0.4rem;
+    text-align: center;
+}
+
+.links a:hover{
+    transform: scale(0);
+    background-color: #ff416c;
+    color: #fff;
+    text-align: center;
+}
+
+/*section*/
+
+.emp .container{
+    /* background: #fff; */
+    max-width: 100%;
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.edit{
+    background: #fff;
+    border-radius: 10px;
+    border:1px solid #000;
+    padding: 10px 5rem;
+    margin-top: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); 
+    position: relative;
+    overflow: hidden; 
+    width: 1368px;
+    max-width: 100%;
+    height: 640px; 
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+} 
+.edit h1{
+    color: #000;
+    text-transform: uppercase;
+    position: absolute;
+    top: 5px;
+}
+
+table{
+    min-width: 200px;
+    max-height: 500px;
+}
+
+th{
+    text-align: center;
+}
+
+table, th, td{
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+th{
+    padding: 1rem 4rem;
+}
+
+td{
+    padding: 0.4rem 4rem;
+}
+
+.btn{
+    color: #fff;
+    background-color: rgb(22, 96, 145);
+    border: none;
+    box-shadow: none;
+    padding: 0.8rem 1.9rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.add{
+    border: 1px solid #000;
+    color: #000;
+    max-width: 100%;
+    height: 640px; 
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); 
+    background: #fff;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 700px;
+}
+
+.input-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.add form{
+    padding-bottom: 3rem;
+    width: 350px;
+}
+
+.add label{
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 2rem;
+    float: left;
+}
+
+.add .input-text{
+    margin-bottom: 1.3rem;
+    width: 100%;
+    border-radius: 2px;
+    background: #fff;
+    border: 1px solid #555555;
+    color: #000;
+    padding: 0.5rem 1rem;
+    line-height: 1.3rem;
+    font-size: 20px;
+}

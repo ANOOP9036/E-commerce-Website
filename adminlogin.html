@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/loginStyle.css">
+    <title>Login</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="center">
+            <div id="sign-in">
+                <div class="logo">
+                    <h2>Admin</h2>
+                </div>
+                <form action="adminlogin.php" method="GET">
+                    <div>
+                        <label>Email or Username</label>
+                        <input type="text" class="text-input" name="email"/>
+                    </div>
+                    <div>
+                        <label>Password</label>
+                        <input type="password" class="text-input" name="password"/>
+                    </div>
+                    <button type="submit" class="primary-btn">Sign In</button>
+                </form>
+                <div class="or">
+                    <hr class="bar">
+                    <span>OR</span>
+                    <hr class="bar">
+                </div>
+                <a href="login.html" class="secondary-btn">Employee Login</a>
+            </div>
+            <footer id="main-footer">
+                <p>Copyright &copy; 2020</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

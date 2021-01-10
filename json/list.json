@@ -1,0 +1,100 @@
+[
+    {
+        "name": "Dell Vostro 3581",
+        "image": ".\/img\/dell1.jpg",
+        "price": "40000",
+        "category": "laptop",
+        "id": "1"
+    },
+    {
+        "name": "HP 14 8th Gen",
+        "image": ".\/img\/hp2.jpg",
+        "price": "50000",
+        "category": "laptop",
+        "id": "2"
+    },
+    {
+        "name": "Acer Aspire 3",
+        "image": ".\/img\/acer1.jpg",
+        "price": "35000",
+        "category": "laptop",
+        "id": "3"
+    },
+    {
+        "name": "Acer Nitro 5",
+        "image": ".\/img\/acer2.jpg",
+        "price": "55000",
+        "category": "laptop",
+        "id": "4"
+    },
+    {
+        "name": "Apple MacBook Pro",
+        "image": ".\/img\/apple1.jpg",
+        "price": "125000",
+        "category": "laptop",
+        "id": "5"
+    },
+    {
+        "name": "Apple MacBook Air",
+        "image": ".\/img\/apple2.jpg",
+        "price": "110000",
+        "category": "laptop",
+        "id": "6"
+    },
+    {
+        "name": "Canon EOS 1500D",
+        "image": ".\/img\/cam1.jpg",
+        "price": "38000",
+        "category": "camera",
+        "id": "7"
+    },
+    {
+        "name": "Sony Alpha ILCE5100L",
+        "image": ".\/img\/cam2.jpg",
+        "price": "37220",
+        "category": "camera",
+        "id": "8"
+    },
+    {
+        "name": "Nikon D3500",
+        "image": ".\/img\/cam3.jpg",
+        "price": "41000",
+        "category": "camera",
+        "id": "9"
+    },
+    {
+        "name": "boAt Rockerz 510",
+        "image": ".\/img\/head2.jpg",
+        "price": "2500",
+        "category": "headphone",
+        "id": "11"
+    },
+    {
+        "name": "Sony MDR-XB450",
+        "image": ".\/img\/head3.jpg",
+        "price": "4500",
+        "category": "headphone",
+        "id": "12"
+    },
+    {
+        "name": "nikon pixel",
+        "image": ".\/img\/cam3.jpg",
+        "price": "42000",
+        "category": "camera",
+        "id": "13"
+    },
+    {
+        "name": "ascasc",
+        "image": ".\/img\/acer2.jpg",
+        "price": "56555",
+        "category": "laptop",
+        "id": "8130"
+    },
+    {
+        "name": "jjjjjj",
+        "image": ".\/img\/head1.jpg",
+        "price": "11",
+        "category": "headphone",
+        "id": "2179"
+    }
+]

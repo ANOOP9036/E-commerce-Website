@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 2rem;
+    
+}
+
+#create{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+#create form{
+    width: 60%;
+    padding-bottom: 2rem;
+}
+
+#create label{
+    font-size: 1.2rem;
+    font-weight: 900;
+    line-height: 2rem;
+    display: flex;
+    justify-content: left;
+    letter-spacing: 0.2rem;
+    margin-bottom: 0.2rem;
+    text-transform: uppercase;
+}
+
+#create .input{
+    margin-bottom: 1.2rem;
+    width: 100%;
+    background: #181818;
+    border: 1px solid #555555;
+    border-radius: 2px;
+    color: #ccc;
+    padding: 0.8rem 1rem;
+    line-height: 1rem;
+}
+
+#create .primary-btn{
+    width: 60%;
+    padding: 0.8rem 0.5rem;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+}
+
+#main-footer{
+    background: #f24b24;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -3px;
+}

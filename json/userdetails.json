@@ -1,0 +1,44 @@
+[
+    {
+        "empid": "1001",
+        "Name": "Vijay",
+        "phone": "123456789",
+        "email": "asdv@ymail.com",
+        "password": "14579"
+    },
+    {
+        "empid": "1002",
+        "Name": "nova",
+        "phone": "123456789",
+        "email": "robothe321@gmail.com",
+        "password": "12345"
+    },
+    {
+        "empid": "1003",
+        "Name": "rocket",
+        "phone": "9845215458",
+        "email": "rocket@gmail.com",
+        "password": "1234"
+    },
+    {
+        "empid": "1004",
+        "Name": "john",
+        "phone": "3584685795",
+        "email": "john@gmail.com",
+        "password": "1234567"
+    },
+    {
+        "empid": "1005",
+        "Name": "Apple",
+        "phone": "6248562158",
+        "email": "Apple@gmail.com",
+        "password": "12345"
+    },
+    {
+        "empid": "1006",
+        "Name": "qqqq",
+        "phone": "54689745",
+        "email": "qq@qq.com",
+        "password": "12345"
+    }
+]
